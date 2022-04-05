@@ -1,7 +1,7 @@
 {
   "vendor": "bicimundomx",
   "name": "countdown-flash",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "title": "Countdown",
   "description": "Countdown component",
   "defaultLocale": "pt-BR",
