@@ -7,6 +7,10 @@
     }
     // Add script here
   })()
+  
+  $('.vtex-store-components-3-x-productDescriptionText').bind('resize', function () {
+      console.log('resized /////////////////////');
+    });
 </script>
 
 <style>
@@ -26,6 +30,13 @@
           color: #ffffff;
           font-size: 20px;
           font-family: Lato-Black;
+  }
+
+  .vtex-menu-2-x-menuContainerNav--desc
+    .vtex-menu-2-x-menuItem--description 
+      .overflow-hidden {
+    height: 100%;
+    max-height: 928px;
   }
 
 </style>
